@@ -17,6 +17,9 @@ header{
   padding: 20px;
   font-family: 'Raleway', 'sans-serif';
   font-size: 120%;
+  position: fixed;
+  width: 100%;
+  background-color: white;
 }
 
 nav{
@@ -36,7 +39,7 @@ header nav ul li{
 
 /*Background Image and Contents*/
 .intro{
-  height: 400px;
+  height: 500px;
   width: 100%;
   margin: auto;
   background: url(/assets/images/image.jpg) repeat fixed 50% 50%;
@@ -50,6 +53,7 @@ header nav ul li{
   vertical-align: middle;
   width: 100%;
   max-width: none;
+  padding-top: 5%;
 }
 
 /*Text Style*/
@@ -133,3 +137,4 @@ p{
   position:relative;
   margin-bottom: 10px;
 }
+
