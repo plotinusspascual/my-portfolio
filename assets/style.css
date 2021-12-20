@@ -3,8 +3,10 @@
   --text-color: white;
 }
 
+/*Header Style*/
+
 header{
-  padding: 20px;
+  padding: 50px;
   font-family: 'Raleway', 'sans-serif';
   font-size: 120%;
   background-color: var(--primary-color);
@@ -20,7 +22,43 @@ header nav ul li{
   margin-left: 25px;
 }
 
+/*Text Style*/
+
 a{
   color: var(--text-color);
   text-decoration: none;
+}
+
+p{
+  height: 100px;
+  color: var(--text-color); 
+  text-align: center;
+}
+
+/*Main Style*/
+main{
+  width: 100%;
+  display: flex;
+}
+
+.container{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+}
+
+.about-me{
+  background-color: orange;
+  padding: 10px;
+  height: 400px;
+}
+
+.about-me img{
+  max-height: 400px;
+}
+
+.float-right{
+  float: right;
+  margin-right: 25px;
 }
