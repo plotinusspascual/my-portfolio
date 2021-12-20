@@ -1,20 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
   --primary-color: rgb(41, 69, 129);
   --text-color: white;
+  --text-color-2: tan;
 }
 
 /*Header Style*/
 
 header{
-  padding: 50px;
+  padding: 20px;
   font-family: 'Raleway', 'sans-serif';
   font-size: 120%;
-  background-color: var(--primary-color);
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header nav ul{
   list-style: none;
-  float: right;
 }
 
 header nav ul li{
@@ -22,10 +33,38 @@ header nav ul li{
   margin-left: 25px;
 }
 
+/*Background Image and Contents*/
+.intro{
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  background: url(/assets/images/image.jpg) repeat fixed 50% 50%;
+  background-size: cover;
+  display: table;
+  top: 0;
+}
+
+.intro .name{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+
 /*Text Style*/
 
-a{
+h1{
+  font-family: 'helvetica', 'Serif';
+  font-size: 300%;
+  font-weight: 700;
   color: var(--text-color);
+  text-align: center;
+  padding: 2%;
+  text-shadow: 2px 2px 10px rgb(65, 62, 62);
+}
+
+a{
+  color: var(--text-color-2);
   text-decoration: none;
 }
 
@@ -36,29 +75,40 @@ p{
 }
 
 /*Main Style*/
+/*
 main{
   width: 100%;
   display: flex;
-}
-
-.container{
-  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 50px;
+}
+*/
+/*
+grid{
+  display: grid;
+  width: 100%;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 }
+*/
+
+/*About Me Style*/
 
 .about-me{
   background-color: orange;
-  padding: 10px;
-  height: 400px;
+  width: 60%;
+  margin: 4% 0 4% 4%;
+  padding-top: 100px;
 }
 
-.about-me img{
-  max-height: 400px;
-}
+
 
 .float-right{
-  float: right;
-  margin-right: 25px;
+  width: 20%;
+  float: left;
+  margin: 4%;
 }
+
+
