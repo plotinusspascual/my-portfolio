@@ -42,7 +42,7 @@ header nav ul li{
   height: 500px;
   width: 100%;
   margin: auto;
-  background: url(/assets/images/image.jpg) repeat fixed 50% 50%;
+  background: url(image.jpg) repeat fixed 50% 50%;
   background-size: cover;
   display: table;
   top: 0;
