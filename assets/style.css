@@ -199,6 +199,10 @@ button:hover{
   margin: 10px;
 }
 
+.icon-image{
+  width: 3%;
+}
+
 /*Divider Style*/
 
 .division{
@@ -252,7 +256,7 @@ footer{
   }
 
   /*Contact Responsive*/
-  a > img{
+  .icon-image{
     width: 15%;
   }
 }
@@ -291,7 +295,7 @@ footer{
   }
 
   /*Contact Responsive*/
-  a > img{
+  .icon-image{
     width: 15%;
   }
 }
