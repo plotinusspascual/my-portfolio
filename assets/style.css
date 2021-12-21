@@ -202,6 +202,7 @@ footer{
 /*Media Query*/
 @media screen and (max-width: 768px){
 
+  /*About Me Responsive*/
   .about-me-main, figure{
     flex-direction: column;
   }
@@ -214,7 +215,7 @@ footer{
 
   .about-me{
     width: 100%;
-    margin: 0% 0 0% 0%;
+    margin: 0% 0% 0% 0%;
     padding-top: 10px;
 
   }
@@ -222,8 +223,15 @@ footer{
   .profile-image{
     width: 100%;
     margin: 0%;
-    padding-left: 15px; 
+    padding-left: 0px; 
   }
 
+  /*Projects Responsive*/
+  .my-projects{
 
+    padding: 0px;
+    padding-top: 10px;
+    margin: 0px;
+    width: 100%;
+  }
 }
