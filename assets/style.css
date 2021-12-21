@@ -191,6 +191,14 @@ button:hover{
   margin: 10px;
 }
 
+/*Divider Style*/
+
+.division{
+  border-style: solid;
+  border-color: var(--secondary-color);
+  border-bottom: 0px;
+}
+
 /*Footer Style*/
 
 footer{
