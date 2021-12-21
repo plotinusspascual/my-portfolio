@@ -27,7 +27,9 @@ How to view the project:
 
 - A presentation with the developers name, recent photo and navigation links to section about them, their projects, and how to contact them.
 - Clickable links in the navigation that effects the UI scrolling down to the corresponding section.
-- Image examples of recent projects with project titles linking to projects github repo.
+- Featured project is bigger than others
+- Titles of recent projects links to projects github repo.
+- Image of recent projects links to deployed website.
 - When site is viewed on various screen or resized, the site is presented with a responsive layout that adapts to users viewport. 
 
 
