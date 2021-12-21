@@ -228,10 +228,15 @@ footer{
 
   /*Projects Responsive*/
   .my-projects{
-
     padding: 0px;
     padding-top: 10px;
     margin: 0px;
     width: 100%;
   }
+
+  /*Contact Responsive*/
+  a > img{
+    width: 15%;
+  }
+
 }
