@@ -164,6 +164,10 @@ button:hover{
   width: 30%;
 }
 
+.my-projects:first-child{
+  flex: 1 0 70%;
+}
+
 .project-title{
   justify-content: center;
   text-align: center;
