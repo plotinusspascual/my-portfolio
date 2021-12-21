@@ -173,7 +173,7 @@ button:hover{
 
 /* Contact Info Style */
 #contact > h2{
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #contact > p{
@@ -204,6 +204,7 @@ button:hover{
 footer{
   padding-top: 25px;
   padding-bottom: 25px;
+  width: 100%;
   background: url(image.jpg) repeat fixed 50% 50%;
 }
 
