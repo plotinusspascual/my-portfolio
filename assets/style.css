@@ -80,7 +80,7 @@ a{
   text-decoration: none;
 }
 
-p{
+.about-me > p{
   height: 100px;
   color: var(--paragraph-text); 
   text-align: center;
@@ -157,3 +157,21 @@ button:hover{
   margin-bottom: 10px;
 }
 
+/* Contact Info Style */
+#contact > h2{
+  padding-top: 50px;
+}
+
+#contact > p{
+  text-align: center;
+}
+
+.icon-group{
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+
+.icon-group > a{
+  margin: 10px;
+}
