@@ -224,8 +224,8 @@ footer{
 @media screen and (max-width: 768px){
 
   /*About Me Responsive*/
-  .about-me-main, figure{
-    flex-direction: column;
+  .about-me-main{
+    flex-direction: column-reverse;
   }
 
   .about-me > p{
@@ -248,6 +248,9 @@ footer{
   }
 
   /*Projects Responsive*/
+  .figure{
+    flex-direction: column;
+  }
   .my-projects{
     padding: 0px;
     padding-top: 10px;
@@ -263,8 +266,8 @@ footer{
 
 @media screen and (max-width: 992px){
     /*About Me Responsive*/
-  .about-me-main, figure{
-    flex-direction: column;
+  .about-me-main{
+    flex-direction: column-reverse;
   }
 
   .about-me > p{
@@ -287,6 +290,10 @@ footer{
   }
 
   /*Projects Responsive*/
+  .figure{
+    flex-direction: column;
+  }
+
   .my-projects{
     padding: 0px;
     padding-top: 10px;
