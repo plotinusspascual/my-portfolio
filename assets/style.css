@@ -198,3 +198,32 @@ footer{
   padding-bottom: 25px;
   background: url(image.jpg) repeat fixed 50% 50%;
 }
+
+/*Media Query*/
+@media screen and (max-width: 768px){
+
+  .about-me-main, figure{
+    flex-direction: column;
+  }
+
+  .about-me > p{
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 25px;
+  }
+
+  .about-me{
+    width: 100%;
+    margin: 0% 0 0% 0%;
+    padding-top: 10px;
+
+  }
+
+  .profile-image{
+    width: 100%;
+    margin: 0%;
+    padding-left: 15px; 
+  }
+
+
+}
