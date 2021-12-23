@@ -33,6 +33,14 @@ How to view the project:
 - When site is viewed on various screen or resized, the site is presented with a responsive layout that adapts to users viewport. 
 
 
+## Images 
+
+Below is a gif showcasing some of the elements and functions of my website. 
+
+![alt text](assets/images/showcase.gif)
+
+
+
 ## Built With
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
