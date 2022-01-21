@@ -24,7 +24,7 @@ How to view the project:
 
 
 ## Features
-
+- A button that downloads my resume
 - A presentation with the developers name, recent photo and navigation links to section about them, their projects, and how to contact them.
 - Clickable links in the navigation that effects the UI scrolling down to the corresponding section.
 - Featured project is bigger than others
